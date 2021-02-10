@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, intial-scale=1.0">
+	<meta charset="utf-8">
+	<title>Sai Krishna's Portfolio</title>
+	<link rel="icon" href="Images\S.jpg" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="CSS\styling.css">
+</head>
+<body>
+	<header>
+		<a href="#home" class="logo">Sai Krishna</a>
+		<div class="toggle" onclick="toggle();"></div>
+		<ul class="menu">
+			<li><a href="#about" onclick="toggle();">About</a></li>
+			<li><a href="#skills" onclick="toggle();">Skills</a></li>
+			<li><a href="#projects" onclick="toggle();">Projects</a></li>
+			<li><a href="#contact" onclick="toggle();">Contact</a></li>
+			<li><a target="_blank" href="https://drive.google.com/file/d/1sIb9_daddNYujZ6mEA-VkeWR5w5111Fj/view?usp=sharing" >Resume</a></li>
+		</ul>
+	</header>
+	<section class="banner" id="home">
+		<div class="textBx">
+			<h2>Hello, I am <br><span>Sai Krishna</span></h2>
+			<h3>I am a Mechanical Engineer.</h3>
+			<a href="#about" class="btn">About Me</a>
+		</div>
+	</section>
+	<section class="about" id="about">
+		<div class="heading">
+			<h2>About Me</h2>
+		</div>
+
+		<div class="content">
+			<div class="contentBx w50">
+				<h3>I am Mechanical Engineer from IIT Madras.</h3>
+				<p>I am a Mechanical Engineer pursuing a Dual-degree with majoring in Mechanical Engineering.<br><br>
+			    I have a great passion in working in the fields of Artificial Intelligence and Robotics.I have a good experience using CAD and have a great passion for developing robots that help to serve society.</p>
+			</div>
+			<div class="w50">
+				<img src="Images\img1.jpg" class="img">
+			</div>
+		</div>
+	</section>
+    
+    <section class="skills" id="skills">
+    	<div class="heading white">
+			<h2>My Skills</h2>
+			<p>These are my skills.</p>
+		</div>
+		<div class="content">
+			<div class="skillsBx">
+				<img src="Images\python.png">
+				<h2>Python</h2>
+			</div>
+			<div class="skillsBx">
+				<img src="Images\Matlab_Logo.png">
+				<h2>Matlab</h2>
+			</div>
+			<div class="skillsBx">
+				<img src="Images\C.png">
+				<h2>C</h2>
+			</div>
+			<div class="skillsBx">
+				<img src="Images\F360.jpg">
+				<h2>Fusion 360</h2>
+			</div>
+            <div class="skillsBx">
+				<img src="Images\Arduino.jpg">
+				<h2>Arduino</h2>
+			</div>
+			<div class="skillsBx">
+				<img src="Images\ros_logo.png">
+				<h2>ROS</h2>
+			</div>
+		</div>
+		
+    </section>
+
+	<section class="projects" id="projects">
+		<div class="heading white">
+			<h2>My Projects</h2>
+			<p>These are my projects.</p>
+		</div>		
+		<div class="content">
+			<div class="projectsBx">
+				<img src="Images\micromouse.jpg">
+				<h2>Micromouse Bot</h2>
+				<p>In this project we developed a bot that that can solve mazes using Arduino and Ultrasonic sensors that help in guiding the motors of the bot.</p>
+			</div>
+			<div class="projectsBx">
+				<img src="Images\icon2.png">
+				<h2>Circket Bot</h2>
+				<p>In this project we created a bot that tracks a ball using CV techniques as well as used an Arduino to control motor so that we can hit the ball. This has been a very simple prototype.</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="contact" id="contact">
+		<div class="heading white">
+			<h2>Contact Me</h2>
+			<p>If you are willing to hire me, contact over here.</p>
+		</div>
+		<div class="content">
+			<div class="contactInfo">
+				<h3>Contact</h3>
+				<div class="contactInfoBx">
+					<div class="box">
+						<div class="icon">
+							<i class="fa fa-map-marker"></i>
+						</div>
+						<div class="text">
+							<h3>Address</h3>
+							<p>Room No:449,<br>Jamuna Hostel,<br>IIT Madras,Chennai-600036</p>
+						</div>
+					</div>
+					<div class="box">
+						<div class="icon">
+							<i class="fa fa-phone"></i>
+						</div>
+						<div class="text">
+							<h3>Phone Number</h3>
+							<p>+91-6301614898</p>
+						</div>
+					</div>
+					<div class="box">
+						<div class="icon">
+							<i class="fa fa-envelope"></i>
+						</div>
+						<div class="text">
+							<h3>Email</h3>
+							<p>dsskjan2001@gmail.com</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="formBx">
+				<form name='contactme' method='post' id='contact-form' autocomplete="off">
+					<h3>Message Me</h3>
+					<input type="text" name="Name" placeholder="Full Name" required="">
+					<input type="Email" name="Mail" placeholder="Email" required="">
+					<input type="Number" name="Phone" placeholder="Mobile Number" required="">
+					<textarea name="Message" placeholder="Your Message" required=""></textarea>
+					<p><small>Your Details are not disclosed</small></p>
+					<input type="submit" value="Send" name='submit'>
+				</form>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<p>Other ways to connect.</p>
+		<center>
+			<a target = "_blank"href="https://www.facebook.com/saikrishna2001" class="fa fa-facebook"></a>
+			<a target = "_blank"href="https://www.instagram.com/shanmukha_sai_krishna.d/" class="fa fa-instagram"></a>
+			<a target = "_blank"href="https://www.linkedin.com/in/saikrishna2001/" class="fa fa-linkedin"></a>
+			<a target = "_blank"href="https://github.com/dssk2001/" class="fa fa-github"></a>
+		</center>
+	</footer>
+    <script type="text/javascript" src='JS\script.js'>   	
+    </script>
+</body>
+</html>
